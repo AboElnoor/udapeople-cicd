@@ -215,7 +215,7 @@ jobs:
       - checkout
       - install_insible
       - add_ssh_keys:
-          fingerprints: ["7e:88:62:10:99:51:23:b7:62:f0:a5:f1:7e:a7:20:29"]
+          fingerprints: ["bd:cb:35:be:9d:ec:bf:6c:a6:da:b3:51:5e:81:d2:d8"]
       - attach_workspace:
           at: ~/
       - run:
@@ -292,7 +292,7 @@ jobs:
       - install_insible
       - install_nodejs
       - add_ssh_keys:
-          fingerprints: ["7e:88:62:10:99:51:23:b7:62:f0:a5:f1:7e:a7:20:29"]
+          fingerprints: ["bd:cb:35:be:9d:ec:bf:6c:a6:da:b3:51:5e:81:d2:d8"]
       - attach_workspace:
           at: ~/
       - restore_cache:
